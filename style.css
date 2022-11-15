@@ -1,0 +1,424 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.owl-carousel.owl-loaded {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.RowPadingError{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.RowMarginError{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.CommonpaddingSection{
+    padding: 1rem 0px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1500px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.TitleRight{
+    float: right;
+}
+
+h1{
+    font-size: 48px;
+    line-height: 58px;
+}
+
+h3{
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 500;
+}
+
+.title{
+    color: var(--logoColor-1);
+    font-weight: bolder;
+    margin-bottom: 1.7rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    display: inline;
+}
+
+.showInphone{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .laptopWideth20{
+        width: 20%;
+    }
+}
+
+/* common end */
+.Brandsection{
+    border: 1px solid #c1c1c1;
+    display: block;
+    flex: none;
+}
+
+.Titelh4{
+    padding: 12px 19px;
+    border-bottom: 1px solid #c1c1c1;
+    background: #ededed;
+}
+
+
+.Titelh4, .Titelh42{
+    border-bottom: 1px solid #c1c1c1;
+    background: #ededed;
+}
+
+.Titelh42{
+    justify-content: center;
+    align-items: center;
+}
+
+.Titelh42{
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Titelh42 .SeeAlSpan{
+    padding-right: 19px;
+}
+
+
+.SeeAlSpan{
+    color: var(--logoColor-1);
+    text-align: right;
+}
+
+.SeeAlSpan a{
+    color: var(--logoColor-1);
+}
+
+.SeeAlSpan a:hover{
+    color: var(--logoColor-2);
+    text-decoration: underline;
+}
+
+.Titelh42 h4{
+    padding: 12px 19px;
+    background-color: var(--logoColor-1);
+    display: inline-block;
+    color: white;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 575px) {
+    .Titelh42 h4{
+        padding: 11px 15px;
+    }
+
+    .Brandsection{
+        border: none;
+    }
+}
+
+.owl-carousel{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.item{
+    margin: auto;
+    text-align: center;
+}
+
+.owl-carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.item img{
+    width: 100%;
+    height: 100px;
+}
+
+/* Furnicer sectin start */
+.TitleBorderBottom .Titelh42{
+    border-bottom: 2px solid #6aacff;
+}
+
+.ProductDropdown{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.tab-content .DuleProduct{
+    margin-bottom: 1rem;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+
+.ProductDropdown ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ProductDropdown ul li{
+    display: inline;
+    margin-right: 1rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.ProductDropdown ul li a{
+    display: inline;
+    font-size: 17px;
+    padding: 2px 10px;
+    color: rgb(44, 44, 44) !important;
+}
+
+.ProductDropdown ul li a{
+    border-radius: 5px;
+}
+
+.ProductDropdown ul li a:hover{
+    color: var(--logoColor-2) !important;
+}
+
+.tab-content {
+    padding: 1.7rem 1.3rem;
+    padding-bottom: .7rem !important;
+}
+
+.TitleCntent{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.PerProductDiv {
+    box-shadow: 0 0 5px #d7d5d5;
+    margin-left: 2px;
+    border: 1px solid #d7d5d5;
+    border-radius: 5px;
+}
+
+.PerProductDiv:hover{
+    border: 1px solid var(--logoColor-2);
+}
+
+.PerProductDiv a{
+    color: #000;
+}
+
+.PerProductDiv:not(:last-child){
+    margin-bottom: 1rem !important;
+}
+
+.PerProductDiv{
+    margin-bottom: 0.7rem;
+}
+
+.ProductImgage{
+    height: 200px;
+    overflow: hidden;
+}
+
+.ProductImgage img{
+    display: block;
+    border-radius: 5px 5px 0 0;
+    height: 100%;
+}
+
+.ProductImgage{
+    position: relative;
+}
+
+.DiscountPersentese{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: var(--logoColor-1);
+    padding: 3px;
+    border-radius: 4px;
+    color: white;
+    font-size: 13px;
+}
+
+.ProductLove{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 16px !important;
+    color: white;
+    padding: 2px;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    padding-top: 1px;
+    background-color: var(--logoColor-2);
+    text-align: center;
+}
+
+.ProductLove:hover{
+    background-color: var(--logoColor-1);
+}
+
+.PrductText{
+    align-items: center;
+    text-align: left;
+    padding: 8px;
+    padding-bottom: 1.1rem;
+}
+
+.PrductText p{
+    margin-bottom: .3rem !important;
+}
+
+.PrductText .ProductTitle{
+    height: 47px;
+    max-height: 47px;
+    overflow: hidden;
+}
+
+.PrductText P .Price{
+    color: var(--logoColor-1);
+    font-size: 18px;
+    margin-right: .5rem;
+}
+
+.PrductText p  .Discount{
+    text-decoration: line-through;
+    color: rgb(54, 54, 54);
+    font-size: 14px;
+}
+
+.PrductText .StartList{
+     color: var(--logoColor-2);
+     font-size: 12px;
+}
+
+.PrductText .ProductTitle{
+    height: 47px;
+    max-height: 47px;
+    overflow: hidden;
+}
+
+/* for mobile start */
+@media screen and (max-width: 767px) {
+
+    .DisNoneinPhone{
+        display: none;
+    }
+}
+/* for mobile end */
+
+@media screen and (max-width: 575px) {
+    .tab-content .DuleProduct {
+        margin-bottom: .5rem;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .tab-content {
+        padding: 0.7rem 7px !important;
+        padding-bottom: 0rem !important;
+    }
+    
+    /* Furnicer supCata filterimg   */
+    .FilterSubcatagorisInPhone{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        padding-top: .5rem;
+        margin-Top: .3rem;
+    }
+
+    .FilterSubcatagorisInPhone ul{  
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .FilterSubcatagorisInPhone li{
+        margin-bottom: .3rem;
+    }
+
+    .ProductImgage {
+        height: 149px;
+        overflow: hidden;
+    }
+
+    .PrductText .ProductTitle {
+        height: 42px;
+        max-height: 42px;
+        overflow: hidden;
+    }
+
+    .PrductText {
+        font-size: 14px;
+    }
+
+    .Mobile50{
+        width: 50%;
+        margin: auto;
+    }
+
+    .showInphone{
+        display: block;
+    }
+}
+
+/* Furnicer sectin end */
+
+:root {
+    --logoColor-1: #2c66af;
+    --logoColor-2: #ff863f;
+    --servocehover: #e79855;
+    --navColor: rgb(216, 216, 216);
+    --navIconColor: red;
+    --navmidbg: #75b535;
+    --TopNev: #3c516a;
+    --DestopCatagori: #3e6a10;
+}
